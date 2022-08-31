@@ -1,6 +1,5 @@
 import random
 numberOfStreaks = 0
-#coin = []
 
 for experimentNumber in range(10000):
     coin = []
@@ -15,6 +14,4 @@ for experimentNumber in range(10000):
         elif coin[i-1]+coin[i]+coin[i+1]+coin[i+2]+coin[i+3]+coin[i+4]==0:
             numberOfStreaks += 1
 
-    #print(coin)
-print('Chance of streak: %s%%' % (numberOfStreaks / 64 / 100))
-print(numberOfStreaks)
+print('Chance of streak: %s%%' % (numberOfStreaks / 64 / 10000 * 100))
