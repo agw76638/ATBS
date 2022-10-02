@@ -1,7 +1,7 @@
 #! python3
 # getOpenWeather.py - Prints the weather for a location from the command line.
 
-APPID = '0effdbba00554e3a95f9db1d8ca8f254'
+APPID = 'APPID'
 
 import json, requests, sys
 
